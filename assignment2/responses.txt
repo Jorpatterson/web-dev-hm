@@ -1,1 +1,29 @@
-d
+Internet Protocols and systems
+
+Protocol
+A well-known set of rules and standards used to communicate between
+machines.
+
+Internet Protocol or IP addresses
+Are a set of numbers separated by periods that act like a mailing address for a
+computer or a website.
+
+Domain Name Systems
+Computers use Domain Name Systems or DNS to connect to corresponding IP
+addresses so that users can get to the website they are requesting, send, and
+receive data.
+
+HTTP - Hyper Text Transfer Protocol
+The language used to communicate between web browsers and computers.
+
+HTML - Hyper Text Markup Language
+Tells a web browser how a page should look.
+
+Cookies
+Helps websites remember your data.
+
+Security
+Since information is sent over the web via plain text it is vulnerable to
+hackers. Therefore security is necessary. Secure Sockets Layer and Transport
+Layer Security are a layer of security that encloses your communication in a
+protective cocoon.
