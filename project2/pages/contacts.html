@@ -22,12 +22,13 @@
   <body>
     <h1>Questionnaire</h1>
     <form action="http://www.example.com/subscribe.php" method="get">
-    <p>Do you plan on making this recipe?</p>
-      <input type="radio" name="plan" value="Yes" /> yes
+    <p><b>Do you plan on making this recipe?</b></p>
+      <input type="radio" name="plan" value="Yes" /> Yes
       <br/>
-      <input type="radio" name="plan" value="No" /> no
+      <input type="radio" name="plan" value="No" /> No
       <br/>
-    <p>How old are you?</p>
+      <br/>
+    <p><b>How old are you?</b></p>
       <input type="radio" name="age" value="Under 18" /> under 18
         <br/>
       <input type="radio" name="age" value="18-25" /> 18-25
@@ -40,14 +41,16 @@
         <br/>
       <input type="radio" name="age" value="66 or older" /> over 65
         <br/>
-    <p>Gender</p>
+        <br/>
+    <p><b>Gender</b></p>
       <select name="Gender">
         <option value="Fe">Female</option>
         <option value="Ma">Male</option>
         <option value="NA">Prefer not to answer</option>
       </select>
       <br/>
-    <p>What was your favorite part of this website?</p>
+      <br/>
+    <p><b>What was your favorite part of this website?</b></p>
       <textarea name="comments" id="textarea" rows="10" cols="50">Enter up to 500 characters...</textarea>
       <br/>
       <input type="submit" name="submit" value="submit"/>
