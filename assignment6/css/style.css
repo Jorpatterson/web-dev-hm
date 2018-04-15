@@ -1,6 +1,18 @@
+body
+*font-family: sans-serif}
+#date{font-size: 15pt; color: darkblue; text-align: left}
+
 .main-container {
     border-style: solid;
     border-width: 2px;
     border-color: darkblue;
     padding: 10px;
     background-color: yellowgreen}
+.second-container{
+    border-style: dotted
+    border-width: 5px;
+    border-color: darkblue
+    padding: 10px
+    background-color: crimson;
+}
+.third-container{}
