@@ -6,6 +6,7 @@
     background-color: yellowgreen;
     height: 400px;
     width: 400px}
+
       .box1.inner{
         font-family: fantasy !important;
         border-style: dotted;
@@ -20,6 +21,7 @@
         margin-right: auto;
         top: 150px;
         margin-left: 40px}
+
 .box2{
   border-style: groove;
   border-width: 5px;
@@ -32,6 +34,13 @@
   position: absolute;
   margin-left: 80px;
   top: 300px}
+
+.imagebox{
+  position: absolute;
+  bottom: 25px;
+  right: 15px;
+  z-index: 1
+}
 
 
 
