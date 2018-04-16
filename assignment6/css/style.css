@@ -6,7 +6,7 @@
     background-color: yellowgreen;
     height: 250px}
 .second-container.inner{
-    border-style: dotted
+    border-style: dotted;
     border-width: 5px;
     border-color: darkblue;
     opacity: .50px;
@@ -14,5 +14,6 @@
     background-color: crimson;
     width: 70%;
     height: 200px
+    position: absolute;
 }
 .third-container{}
