@@ -1,19 +1,25 @@
-.main-container {
+.box1{
     border-style: solid;
     border-width: 5px;
     border-color: darkblue;
     padding: 10px;
     background-color: yellowgreen;
-    height: 250px}
-.second-container.inner{
+    height: 400px;
+    width: 400px}
+.box1.inner{
+    font-family: fantasy !important;
     border-style: dotted;
     border-width: 5px;
     border-color: darkblue;
-    opacity: .50px;
-    padding: 10px;
-    background-color: crimson;
-    width: 70%;
-    height: 200px
+    opacity: .5;
+    padding: 30px;
+    background-color: rgb(220,20,60);
+    width: 500px;
+    height: 300px;
     position: absolute;
+    margin-right: auto;
+    top: 150px;
+    margin-left: 40px}
+.box2{
+  
 }
-.third-container{}
