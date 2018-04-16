@@ -3,12 +3,14 @@
     border-width: 2px;
     border-color: darkblue;
     padding: 10px;
-    background-color: yellowgreen}
-.second-container{
+    background-color: yellowgreen;
+    height: 300px}
+.second-container.inner{
     border-style: dotted
     border-width: 5px;
-    border-color: darkblue
-    padding: 10px
+    border-color: darkblue;
+    opacity: .50px;
+    padding: 10px;
     background-color: crimson;
 }
 .third-container{}
