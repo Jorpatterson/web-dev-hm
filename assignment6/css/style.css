@@ -7,6 +7,7 @@
     height: 400px;
     width: 400px}
 
+/*Overlapping box*/
       .box1.inner{
         font-family: fantasy !important;
         border-style: dotted;
@@ -39,8 +40,9 @@
   position: absolute;
   bottom: 25px;
   right: 15px;
-  z-index: 1
-}
+  z-index: 1}
+
+
 
 
 
