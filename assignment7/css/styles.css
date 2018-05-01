@@ -25,6 +25,7 @@ hr{border-width: 3px;
   border-style: solid}
 
 .button{text-align: center;
+<<<<<<< HEAD
         font-size: 30px;
         font-weight: 300;
         position: center;
@@ -38,3 +39,13 @@ hr{border-width: 3px;
 
 .button:visited{color: dodgerblue
                 font-style:italic}
+=======
+        color: inherit;
+        font-weight: 300;
+        position: center;
+        background-color: gray;
+        border: solid;
+        border-color: black;
+
+        border-radius: 8px}
+>>>>>>> 073cecaffb15bb06c239978e603d949c37f55217
