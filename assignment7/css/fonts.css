@@ -1,0 +1,11 @@
+
+@font-face {font-family: 'unifrakturcook';
+  src:url('../fonts/UnifrakturCook-Bold.ttf') format('opentype');
+  font-weight: normal;
+  font-size: 56px;
+  font-style: normal}
+
+@font-face {font-family: 'canon';
+  src: url('../fonts/IMFeFCit28P.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal}
