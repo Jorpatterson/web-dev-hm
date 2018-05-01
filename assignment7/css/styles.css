@@ -13,15 +13,18 @@ body{background-color: #000080}
 
 h1 {text-align: center;
    font-family: 'unifrakturcook', impact;
-   font-size: 56px}
+   font-size: 56px;
+   letter-spacing: 1px}
+h1:hover{color: tomato}
 
 h2{text-align: center;
-  font-family: 'canon', lucida;
+  font-family: 'canon';
   font-size: 150%}
 
 h3{text-align: center;
-  font-family: 'canon', lucida;
-  font-size: 80%}
+  font-family: 'canon';
+  font-size: 80%;
+  text-decoration: underline}
 
 hr{border-width: 3px;
   border-style: solid}
