@@ -1,12 +1,65 @@
-.container {
-  width: 600px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid black}
+@font-face {font-family: 'Merienda-Bold';
+  src:url('../fonts/Merienda-Bold.ttf') format('opentype')}
 
-.lyrics p, pre {
-  font-family: arial;
-  font-size: small}
+@font-face { font-family: 'TitanOne';
+  src: url('../fonts/TitanOne-Regular.ttf') format('opentype')}
 
-.contact {
-  background-color: powderblue}
+@font-face {font-family: 'open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('opentype')}
+
+#heading1
+  {font-family: 'Merienda-Bold';
+  font-size: 30px;
+  font-style:italic;
+  position: absolute;
+  width: 350px;
+  left: 300px;
+  top: 20px;
+  z-index: 4;
+  background-color: #FDFDF1}
+
+.woman{z-index:3;
+position: absolute;
+left: 70px}
+
+#queenblock
+  {font-family: 'TitanOne';
+  font-style: italic;
+  background-color: #303F44;
+  color: #FDFDF1;
+  height: 50px;
+  z-index: 1;
+  font-size: 40px;
+  position: absolute;
+  left:380px;
+  top: 130px;
+  width: 300px;
+  text-align: center;
+  padding: 20px}
+
+#bagless
+  {font-style: 'open-sans';
+  font-style: oblique;
+  font-size: 20px;
+  color: #303F44;
+  position: absolute;
+  left: 380px;
+  top: 230px;
+  width: 300px}
+
+#honest
+  {font-family: 'Merienda-Bold';
+  font-size: 30px;
+  color: #ED1701;
+  position:absolute;
+  left: 540px;
+  top: 260px;
+  width: 100px;
+  z-index: 4}
+
+#nobag
+  {position: absolute;
+  left: 340px;
+  top: 260px;
+  width: 50px;
+  z-index: 3}
