@@ -7,35 +7,46 @@
 @font-face {font-family: 'open-sans';
   src: url('../fonts/OpenSans-Regular.ttf') format('opentype')}
 
+@@font-face {font-family: 'open-sansEB';
+  src:url('../fonts/OpenSans-ExtraBold.ttf') format('opentype')}
+
+body{background-color: #FDFDF1}
+
+h1{font-size: 12px; font-weight: bold; font-family: 'open-sansEB'}
+
 #heading1
   {font-family: 'Merienda-Bold';
-  font-size: 30px;
+  font-size: 35px;
   font-style:italic;
   position: absolute;
-  width: 350px;
+  width: 400px;
   left: 300px;
   top: 20px;
   z-index: 4;
-  background-color: #FDFDF1}
+  background-color: #FDFDF1;
+  text-align: center;
+  z-index: 2}
 
-.woman{z-index:3;
+.woman{z-index: 3;
 position: absolute;
-left: 70px}
+left: 90px;
+background-color: transparent}
 
 #queenblock
-  {font-family: 'TitanOne';
-  font-style: italic;
+  {font-family: sans-serif;
+  font-style: oblique;
   background-color: #303F44;
   color: #FDFDF1;
   height: 50px;
   z-index: 1;
-  font-size: 40px;
+  font-size: 50px;
   position: absolute;
-  left:380px;
+  left:340px;
   top: 130px;
   width: 300px;
   text-align: center;
-  padding: 20px}
+  padding: 20px;
+  font-weight: bold;}
 
 #bagless
   {font-style: 'open-sans';
@@ -48,14 +59,49 @@ left: 70px}
   width: 300px}
 
 #honest
-  {font-family: 'Merienda-Bold';
+  {font-family: 'TitanOne';
   font-size: 30px;
   color: #ED1701;
   position:absolute;
-  left: 540px;
+  left: 460px;
   top: 260px;
-  width: 100px;
-  z-index: 4}
+  width: 200px;
+  z-index: 4;
+  letter-spacing: 3px}
+
+  #glory
+    {font-family: 'TitanOne';
+    font-size: 30px;
+    color: #ED1701;
+    position:absolute;
+    left: 460px;
+    top: 350px;
+    width: 200px;
+    z-index: 4;
+    letter-spacing: 3px}
+
+#whee
+    {font-family: 'TitanOne';
+    font-size: 30px;
+    color: #ED1701;
+    position:absolute;
+    left: 460px;
+    top: 440px;
+    width: 200px;
+    z-index: 4;
+    letter-spacing: 3px}
+
+#honesttext
+  {font-family: 'open-sans';
+  font-size: 12px;
+  font-weight: bold;
+  color: #303F44;
+  position: absolute;
+  left: 495px;
+  top: 295px;
+  width: 200px;
+  z-index: 4;
+  text-align: left}
 
 #nobag
   {position: absolute;
@@ -63,3 +109,136 @@ left: 70px}
   top: 260px;
   width: 50px;
   z-index: 3}
+
+#nodust
+  {position: absolute;
+  left: 340px;
+  top: 350px;
+  width: 20px;
+  z-index: 3}
+
+#wastebasket
+  {position: absolute;
+  left: 340px;
+  top: 480px;
+  width: 20px;
+  z-index: 3}
+
+#glorytext
+  {font-family: 'open-sans';
+  font-size: 12px;
+  font-weight: bold;
+  color: #303F44;
+  position: absolute;
+  left: 495px;
+  top: 385px;
+  width: 200px;
+  z-index: 4;
+  text-align: left}
+
+#wheetext
+  {font-family: 'open-sans';
+  font-size: 12px;
+  font-weight: bold;
+  color: #303F44;
+  position: absolute;
+  left: 495px;
+  top: 480px;
+  width: 190px;
+  z-index: 4;
+  text-align: left}
+
+#patent
+  {font-family: 'open-sans';
+  font-size: 10px;
+  color: #303F44;
+  position: absolute;
+  left: 50px;
+  top: 410px;
+  width: 85px;
+  z-index: 4;
+  text-align: cebter}
+
+#family
+  {position: absolute;
+  left: 40px;
+  top: 575px;
+  z-index: 2}
+
+#attachment
+  {position: absolute;
+  left: 70px;
+  top: 875px;
+  z-index: 2}
+
+.presenting
+  {font-family: 'open-sans', monospace, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  color: #303F44;
+  position: absolute;
+  left: 380px;
+  top: 575px;
+  line-height: 1.5;
+  width: 300px;
+  z-index: 2}
+
+.cleanfloors
+  {font-family: 'open-sans', monospace, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bolder;
+  color: #303F44;
+  position: absolute;
+  left: 40px;
+  top: 780px;
+  line-height: 1.3;
+  width: 300px;
+  z-index: 2}
+
+.attachmenttext
+  {font-family: 'open-sans', monospace, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bolder;
+  color: #303F44;
+  position: absolute;
+  left: 40px;
+  top: 990px;
+  line-height: 1.3;
+  width: 300px;
+  z-index: 2}
+
+#logo
+  {position: absolute;
+  left: 300px;
+  top: 830px;
+  width: 20px;
+  z-index: 3}
+
+#guarantee
+  {position: absolute;
+  left: 585px;
+  top: 960px;
+  width: 20px;
+  z-index: 4}
+
+.box1
+  {border-style: dashed;
+  position: absolute;
+  border-color: #303F44;
+  padding: 10px;
+  top:1010px;
+  left: 370px;
+  width: 300px;
+  height: 125px;
+  z-index: 4;
+background-color: #FDFDF1}
+
+#boxtext
+{font-family: 'open-sans', monospace, sans-serif;
+font-size: 10px;
+text-align: left;
+font-weight: bold;
+color: #303F44}
