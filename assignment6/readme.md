@@ -1,4 +1,4 @@
-## Technical Report for Assignment 6
+## Technical Report for Assignment 6##
 
 As usual, before beginning, this assignment was very overwhelmig. I was not really sure what I wanted my design to look like, I could not envision anything. So I started by picking the image that appealed to me the most. That was an image from the 1960's. I then looked at the CSS colors and tried to find colors that would compliment the image I picked out. I googled images for the 1960's as well as common sayings and added those to my site.
 
